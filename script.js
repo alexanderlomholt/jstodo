@@ -25,11 +25,20 @@ const removeItem = (item) => {
 }
 
 // hide/display input
-const hideInput = document.querySelector('#plus');
+const plus = document.querySelector('#plus');
 
-hideInput.addEventListener('click', (e) => {
-  console.log('hello');
+plus.addEventListener('click', (e) => {
+  const input = document.querySelector('input');
+
+  input.classList.toggle("hidden");
+
 });
+
+
+// hideInput.addEventListener('click', (e) => {
+//   console.log('hello');
+// });
+
 
 
 

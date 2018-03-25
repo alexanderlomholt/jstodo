@@ -13,7 +13,8 @@ h1 {
   padding: 20px 0;
   width: 100%;
 }
- ul {
+
+ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -37,7 +38,7 @@ li {
 
 .fa-plus {
   font-size: 2em;
-  padding: 23px 25px;
+  padding: 22.5px 25px;
   background-color: rgba(0,0,0,0.25);
 }
 .fa-plus:hover {
@@ -70,6 +71,7 @@ li {
 
 .content {
   width: 500px;
+  box-shadow: 0 0 15px lightgray;
 }
 
 input {
@@ -88,12 +90,6 @@ input {
   color: rgba(0,0,0,0.3);
 }
 
-
-
-
-
-
-
-
-
-
+.hidden {
+  display: none;
+}
