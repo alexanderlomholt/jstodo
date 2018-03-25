@@ -39,10 +39,12 @@ li {
 .fa-plus {
   font-size: 2em;
   padding: 22.5px 25px;
-  background-color: rgba(0,0,0,0.25);
+  color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.17);
 }
 .fa-plus:hover {
   cursor: pointer;
+  background-color: rgba(0,0,0,0.2);
 }
 
 .fa-trash-alt {
@@ -51,8 +53,8 @@ li {
 
 .fa-trash-alt:hover {
   cursor: pointer;
+  color: rgba(255,0,0,0.7);
 }
-
 
 .container {
   width: 100%;

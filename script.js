@@ -29,15 +29,9 @@ const plus = document.querySelector('#plus');
 
 plus.addEventListener('click', (e) => {
   const input = document.querySelector('input');
-
   input.classList.toggle("hidden");
-
 });
 
-
-// hideInput.addEventListener('click', (e) => {
-//   console.log('hello');
-// });
 
 
 
