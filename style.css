@@ -21,6 +21,15 @@ h1 {
 
 li {
   background-color: white;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3em;
+  padding: 20px;
+}
+
+.todo-text {
+  color: rgba(0,0,0,0.6);
 }
 
 .fa-plus {
@@ -30,6 +39,10 @@ li {
 }
 .fa-plus:hover {
   cursor: pointer;
+}
+
+.fa-trash-alt {
+  color: rgba(255,0,0,0.4);
 }
 
 .container {
@@ -58,6 +71,13 @@ input {
   font-size: 1.5em;
   color: rgba(0,0,0,0.5);
   outline: none;
+  box-shadow: 0 5px 10px -3px lightgray;
+}
+
+.complete {
+  text-decoration: line-through;
+  font-style: italic;
+  color: rgba(0,0,0,0.3);
 }
 
 
