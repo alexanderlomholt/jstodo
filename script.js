@@ -24,5 +24,12 @@ const removeItem = (item) => {
   item.parentNode.parentNode.removeChild(item.parentNode);
 }
 
+// hide/display input
+const hideInput = document.querySelector('#plus');
+
+hideInput.addEventListener('click', (e) => {
+  console.log('hello');
+});
+
 
 
